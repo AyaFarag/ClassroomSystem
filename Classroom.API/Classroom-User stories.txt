@@ -98,43 +98,57 @@ Razor:
 - As a Admin , should show all Videos.
 
 ----------------------------------------------------------------
+
+
+-Classroom - Ahmed Saeed 
 -as an admin, should add teacher to a classroom. 
 -as an admin, should remove teacher from a classroom. 
-
--as an admin should invite student to the system for registration.   ///////// admin - parent
--as an admin, should check all the payments. 
--as an admin can create an invoice for parent and send email notification. 
--as an admin could deactivate student's accounts.  soft delete
 -as an admin could add students in the classroom 
--as an admin could approve students in the classroom 
--as an admin could remove students in the classroom 
-
-
-
-Students
-
-
+-as an admin or parent could approve students in the classroom 
+-as an admin or parent could remove students in the classroom 
 -as a student, should check his classroom details.
+-as a teacher,can check his classrooms reports.
+
+
+xxx
+-as an admin should invite student to the system for registration.   ///////// admin - parent
+
+-Payment
+-as an admin, should check all the payments. 
+
+xxxx
+-as an admin can create an invoice for parent and send email notification. 
+
+Student - Ahmed Abdelwahab
+-as an admin could deactivate student's accounts.  soft delete
+
+Quiz - Reham
 -as a student, could apply to a quize in the classroom.
+
+Course - Reham
 -as a student, could apply to a course in the classroom.
 
-Parents
 
 
+User [parent_id] - parent - child
+
+
+-> User to Student  one 2 one
+
+
+
+Parent - Ahmed Abdelwahab
 -as a parent should add his childern.
--as a parent should remove his children.
--as a parent should check all his childern profiles. 
--as a parent should add his children to a classroom or multiple classrooms.
--as a parent should remove his children from the classroom
+-as a parent should remove his children. delete student
+-as a parent should check all his childern profiles. get all childern with details 
+
+xxxx
 -as a parent should pay his invoice.
 
-Teacher
 
-
--as a teacher,can check his classrooms reports.
  
 
-
+ ------------------------------------------------------
 
  --- Identity - eception handling
  --- Razor - unit testing
